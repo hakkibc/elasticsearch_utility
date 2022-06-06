@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Put this file into /home/elasticsearch-7.10.2/
+# Assuming tarball installation. Tarball is extracted to this path:
 cd /home/elasticsearch-7.10.2/
 
 sudo sysctl -w vm.max_map_count=262144
